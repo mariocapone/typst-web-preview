@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0
+}
+
+#viewerContainer {
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s;
+}
+
+#viewerContainer .page .canvasWrapper {
+  border: 1px solid #bbb;
+}
